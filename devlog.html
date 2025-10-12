@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Devlog — NuroBit Studios</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #0a0f1f;
+      color: #e0e0ff;
+    }
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      background-color: #101830;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    }
+    .logo {
+      font-size: 1.8rem;
+      font-weight: bold;
+      color: #00bfff;
+      letter-spacing: 1px;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+      margin: 0;
+      padding: 0;
+    }
+    nav a {
+      color: #e0e0ff;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #00bfff;
+    }
+    .section-box {
+      max-width: 800px;
+      margin: 3rem auto;
+      padding: 2rem;
+      border-radius: 12px;
+      background: linear-gradient(135deg, #101830, #1a2540);
+      box-shadow: 0 0 20px rgba(0, 191, 255, 0.2);
+      animation: fadeUp 1s ease-out forwards;
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    .section-box h2, .section-box h3 {
+      color: #00bfff;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+    .section-box p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      color: #c0c0ff;
+      text-align: center;
+    }
+    .log-entry {
+      margin-top: 2rem;
+      padding: 1rem;
+      border-left: 4px solid #00bfff;
+      background-color: #121c30;
+      border-radius: 8px;
+    }
+    .log-entry h4 {
+      margin: 0 0 0.5rem;
+      color: #7f7fff;
+    }
+    .log-entry p {
+      margin: 0;
+      font-size: 1rem;
+      color: #c0c0ff;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: #101830;
+      color: #888;
+    }
+
+    @keyframes fadeUp {
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">NuroBit Studios</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="alliance.html">Alliance</a></li>
+        <li><a href="manifesto.html">Manifesto</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="section-box">
+    <h2>Devlog</h2>
+    <p>This is our chanalog—a living log of emotional breakthroughs, technical rituals, and studio milestones. Every entry is a signal. Every signal is a legacy artifact.</p>
+
+    <div class="log-entry">
+      <h4>October 12, 2025 — Shared NuroBit Studios Concept With Friends</h4>
+      <p>Shared the concept with friends to spread the word.</p>
+    </div>
+
+    <div class="log-entry">
+      <h4>October 10, 2025 — Website Established</h4>
+      <p>Made the NuroBit Studios website reality by making it.</p>
+    </div>
+
+    <div class="log-entry">
+      <h4>October 8, 2025 — Founded NuroBit Studios</h4>
+      <p>Had an idea to unite solo devs, and here it is. NuroBit Studios is for solo developers who want a cause to use their skills.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 NuroBit Studios</p>
+  </footer>
+</body>
+</html>
